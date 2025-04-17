@@ -47,3 +47,30 @@ footer {
   padding: 1rem;
   margin-top: 30px;
 }
+.menu-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.menu-item {
+  background: white;
+  border: 1px solid #ddd;
+  padding: 1rem;
+  width: 250px;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+  border-radius: 8px;
+}
+
+.menu-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.menu-item h3 {
+  margin-top: 0.5rem;
+  font-size: 1.2rem;
+  color: #c0392b;
+}
